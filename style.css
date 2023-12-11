@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-color: rgb(34, 34, 65);
+}
+
+h1{
+    font-size: 5rem;
+    font-family: "Arvo", cursive;
+    color: #DBEDF3;
+    text-shadow: 5px 0 #DA0463;
+}
+.name{
+    color: #DA0463;
+    font-size: larger;
+    font-weight: 600px;
+}
+
+footer{
+    color: #DBEDF3;
+    font-size: 2rem;
+}
+
+.set{
+    margin: 10% auto;
+}
+
+.piece{
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+.one{
+    background-image: url("Images/winter.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.two{
+    background-image: url("Images/spring.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.three{
+    background-image: url("Images/summer.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.four{
+    background-image: url("Images/autumn.jpg");
+    background-size: cover;
+    background-position: center;
+}
