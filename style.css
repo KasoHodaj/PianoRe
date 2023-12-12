@@ -27,7 +27,7 @@ footer{
 .piece{
     outline: none;
     border: 10px solid #404B69;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Arvo', cursive;
     line-height: 2;
     font-weight: 900;
@@ -37,7 +37,7 @@ footer{
     display: inline-block;
     width: 150px;
     height: 150px;
-    text-align: left;
+    text-align: center;
     margin: 10px;
     background-color: white;
 }
@@ -92,4 +92,11 @@ h2{
     background-color: #DA0463;
     border-radius: 15px;
     border: 2px solid #DBEDF3;
+}
+
+@media(max-width<600px){
+    .piece{
+        text-align: left;
+        font-size: 1.5rem;
+    }
 }
