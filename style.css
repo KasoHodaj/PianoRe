@@ -27,7 +27,7 @@ footer{
 .piece{
     outline: none;
     border: 10px solid #404B69;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Arvo', cursive;
     line-height: 2;
     font-weight: 900;
@@ -37,7 +37,7 @@ footer{
     display: inline-block;
     width: 150px;
     height: 150px;
-    text-align: center;
+    text-align: left;
     margin: 10px;
     background-color: white;
 }
