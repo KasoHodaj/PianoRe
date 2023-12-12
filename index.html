@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4-Seasons</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
     <h1 class="title">Piano Music</h1>
+    <h2>
+        <span style="color: #DA0463;"><span class="material-symbols-outlined">
+                reminder
+            </span>TIP: </span>
+        One music piece is allowed each time. <br>
+        In order to play a different one try refreshing the page.
+    </h2>
+    <div>
+        <button class="refresh" onClick="window.location.reload();">
+            <span class="material-symbols-outlined">
+                refresh
+            </span>
+            Refresh
+        </button>
+    </div>
     <div class="set">
-        <button class="one   piece">1</button>
-        <button class="two   piece">2</button>
-        <button class="three piece">3</button>
-        <button class="four  piece">4</button>
+        <button class="one   piece">one</button>
+        <button class="two   piece">two</button>
+        <button class="three piece">three</button>
+        <button class="four  piece">four</button>
     </div>
     <script src="index.js"></script>
 </body>
 <footer>
     Made for fun. <br>
     By <span class="name">Kaso Hodaj</span>
-  </footer>
+</footer>
+
 </html>

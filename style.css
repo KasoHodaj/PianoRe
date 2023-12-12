@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Arvo", cursive;
     color: #DBEDF3;
     text-shadow: 5px 0 #DA0463;
@@ -27,7 +27,7 @@ footer{
 .piece{
     outline: none;
     border: 10px solid #404B69;
-    font-size: 5rem;
+    font-size: 2.5rem;
     font-family: 'Arvo', cursive;
     line-height: 2;
     font-weight: 900;
@@ -64,4 +64,32 @@ footer{
     background-image: url("Images/autumn.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.pressed{
+    box-shadow: 0 3px 0 #DBEDF3;
+    opacity:  0.5;
+}
+h2{
+    color: #DBEDF3;
+    font-family: 'Arvo', cursive;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    font-weight: 200;
+    
+
+
+}
+
+.refresh{
+    font-size: 1.5rem;
+    font-family: 'Arvo', cursive;
+    font-weight: 200;
+    color: #DBEDF3;
+    background-color: #DA0463;
+    border-radius: 15px;
+    border: 2px solid #DBEDF3;
 }
