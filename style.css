@@ -96,6 +96,7 @@ h2{
 
 @media(max-width:600px){
     .piece{
-        text-align: left;
+        
+        font-size: 2rem;
     }
 }
